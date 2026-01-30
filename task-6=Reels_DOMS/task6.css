@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #fe635e;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#screen{
+    width: 325px;
+    height: 85vh;
+    background: #fff;
+    border:2px solid #111;
+    border-radius: 10px;
+    overflow: hidden;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+}
+#screen::-webkit-scrollbar{
+    display: none;
+}
+.reel{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    scroll-snap-align: start;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    object-position: center;
+    position: absolute;
+    pointer-events: none
+}
+#info{
+    width: 100%;
+    height: 20%;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#account{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+#account:hover{
+    cursor: pointer;
+}
+#account img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 3%;
+}
+#user h2{
+    font-size: 1rem;
+    font-weight: 400;
+}
+button{
+    padding: 4px 8px;
+    border-radius: 8px;
+    border:2px solid #111;
+    background: transparent;
+}
+#caption{
+    margin-left: 3%;
+    font-size:small;
+    font-weight: 600;
+}
+#music{
+    margin-left: 3%;
+    font-size:smaller;
+    font-weight: 100;
+}
+
+#features{
+    width: 10%;
+    height: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    background: transparent;
+    margin-left: 88%;
+    right: 5%;
+    bottom: 10%;
+    font-size: larger;
+}
+#features div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#features div p{
+    font-size:x-small;
+}
+.feature{
+    pointer-events: none;
+}
+.red{
+    color: red;
+}
+.likes{
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
+
+.mute{
+    position: absolute;
+    z-index: 2;
+    margin-left: 2%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.mute button{
+    border: none;
+    border-radius: 50%;
+}
+.mute:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
