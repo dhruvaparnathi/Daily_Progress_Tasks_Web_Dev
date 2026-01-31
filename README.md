@@ -6,11 +6,24 @@ Each task focuses on improving concepts like **HTML, CSS, JavaScript, and DOM ma
 
 ---
 
+## 🚀 Live Task Demos
+
+| Task | Description | Live Demo |
+|-----|------------|-----------|
+| Task 1 | DOM Basics | 🔗 [View](https://task-1-doms.netlify.app) |
+| Task 2 | Event Handling | 🔗 [View](https://task-2-doms.netlify.app) |
+| Task 3 | Hover | 🔗 [View](https://task-3-hover.netlify.app) |
+| Task 4 | Stories demo | 🔗 [View](https://task-4-stories.netlify.app) |
+| Task 5 | Music Player | 🔗 [View](https://task-5-musicplayer.netlify.app) |
+| Task 6 | Reels Clone | 🔗 [View](https://task-6-reelsclone.netlify.app) |
+
+
+---
 ## 📂 Folder Structure
 
 
 Each task folder contains:
-- `taskX.html` – HTML structure  
+- `index.html` – HTML structure  
 - `taskX.css` – Styling  
 - `taskX.js` – JavaScript / DOM logic  
 
