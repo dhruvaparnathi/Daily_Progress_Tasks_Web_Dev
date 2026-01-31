@@ -16,6 +16,7 @@ Each task focuses on improving concepts like **HTML, CSS, JavaScript, and DOM ma
 | Task 4 | Stories demo | 🔗 [View](https://task-4-stories.netlify.app) |
 | Task 5 | Music Player | 🔗 [View](https://task-5-musicplayer.netlify.app) |
 | Task 6 | Reels Clone | 🔗 [View](https://task-6-reelsclone.netlify.app) |
+| Task 6 | Hover & Text | 🔗 [View](https://task-7-adv-css.netlify.app) |
 
 
 ---
