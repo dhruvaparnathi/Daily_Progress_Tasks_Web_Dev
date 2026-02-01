@@ -17,6 +17,8 @@ Each task focuses on improving concepts like **HTML, CSS, JavaScript, and DOM ma
 | Task 5 | Music Player | 🔗 [View](https://task-5-musicplayer.netlify.app) |
 | Task 6 | Reels Clone | 🔗 [View](https://task-6-reelsclone.netlify.app) |
 | Task 7 | Hover & Text | 🔗 [View](https://task-7-adv-css.netlify.app) |
+| Task 8 | Hover Card, Advance CSS | 🔗 [View](https://task-8-adv-css.netlify.app) |
+| Task 9 | Nav Bar, Advance CSS | 🔗 [View](https://task-9-adv-css.netlify.app) |
 
 
 ---
